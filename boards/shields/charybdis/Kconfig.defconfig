@@ -67,7 +67,7 @@ endif
 
 if SHIELD_CHARYBDIS_DONGLE
   config ZMK_KEYBOARD_NAME
-    default "Charybdis"
+    default "Charybdis ZMK"
 # I2C and SSD1306 OLED driver support for OLED-based dongles only
   config I2C
     default y

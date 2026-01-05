@@ -9,7 +9,6 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #include "zmk-helpers/helper.h"
-#define ALL		(-1)
 #define NONE	0
 #define DEFAULT	0
 #define COLEMAK	1

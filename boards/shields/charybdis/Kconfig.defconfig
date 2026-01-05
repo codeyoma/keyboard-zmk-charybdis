@@ -126,9 +126,9 @@ if SHIELD_CHARYBDIS_RIGHT_CENTRAL
   config ZMK_KEYBOARD_NAME
     default "Charybdis RC"
   config BT_MAX_CONN
-    default 2
+    default 3
   config BT_MAX_PAIRED
-    default 2
+    default 3
   config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
     default 1
 endif

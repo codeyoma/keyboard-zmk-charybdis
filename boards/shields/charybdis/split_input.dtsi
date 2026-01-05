@@ -1,13 +1,17 @@
 #include <dt-bindings/zmk/input_transform.h>
 #include <input/processors.dtsi>
 
-#define BASE 0
-#define NUMS 1
-#define DANGER 2
-#define MOUSE 3
-#define SCROLL 4
-#define SNIPE 5
-#define AUTO 6
+#define ALL		(-1)
+#define NONE	0
+#define DEFAULT	0
+#define COLEMAK	1
+#define LOWER	2
+#define RAISE	3
+#define ADJUST	4
+#define MOUSE   5
+#define SCROLL  6
+#define SNIPE   7
+#define TEST	8
 
 / {
   split_inputs {

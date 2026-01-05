@@ -60,6 +60,7 @@
 #include "custom/behaviors.dtsi"
 #include "custom/combos.dtsi"
 #include "custom/macros.dtsi"
+
 #include "layer/L1-qwerty.dtsi"
 #include "layer/L1-colemak.dtsi"
 #include "layer/L2-lower.dtsi"

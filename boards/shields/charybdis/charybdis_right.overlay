@@ -4,11 +4,7 @@
 
 &default_transform {
 	col-offset = <5>;
-};
-
-&five_column_transform {
-	col-offset = <5>;
-};
+};	
 
 &kscan0 {
 	compatible = "zmk,kscan-gpio-matrix";

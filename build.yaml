@@ -4,10 +4,10 @@ include:
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
 
-  - board: seeeduino_xiao_ble
-    shield: charybdis_dongle_prospector prospector_adapter
-    snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
+  # - board: seeeduino_xiao_ble
+  #   shield: charybdis_dongle_prospector prospector_adapter
+  #   snippet: studio-rpc-usb-uart
+  #   cmake-args: -DCONFIG_ZMK_STUDIO=y
 
   - board: nice_nano_v2
     shield: charybdis_left
@@ -20,9 +20,5 @@ include:
     shield: charybdis_right_central
 
   - board: nice_nano_v2
-    shield: charybdis_left_encoder
-
-  - board: nice_nano_v2
     shield: settings_reset
-  - shield: settings_reset
-    board: seeeduino_xiao_ble
+

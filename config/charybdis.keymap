@@ -32,8 +32,8 @@
 
 #define FOCUS_NEXT	&kp LC(F4)
 #define FOCUS_MENU	&kp LC(F2)
-#define MOVE_LEFT	&kp LG(LBKT)
-#define MOVE_RIGHT	&kp LG(RBKT)
+#define _MOVE_LEFT	&kp LG(LBKT)
+#define _MOVE_RIGHT	&kp LG(RBKT)
 
 #define HM_LP	&hm LCTRL
 #define HM_LR	&hm LGUI

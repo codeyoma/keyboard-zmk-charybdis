@@ -1,7 +1,6 @@
 #include <dt-bindings/zmk/input_transform.h>
 #include <input/processors.dtsi>
 
-#define ALL		(-1)
 #define NONE	0
 #define DEFAULT	0
 #define COLEMAK	1

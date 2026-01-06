@@ -3,10 +3,6 @@
 #include "split_input.dtsi"
 
 / {
-	chosen {
-		zmk,sensors = &sensors;
-	};
-
 	trackball_listener_local: trackball_listener_local {
 		compatible = "zmk,input-listener";
 		device = <&trackball>;

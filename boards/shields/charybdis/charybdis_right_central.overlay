@@ -7,7 +7,7 @@
 		compatible = "zmk,input-listener";
 		device = <&trackball>;
 
-		input-processors = <&zip_xy_scaler 4 5>;
+		input-processors = <&zip_xy_scaler 5 6>;
 
 		snipe {
 			layers = <SNIPE>;
@@ -16,7 +16,11 @@
 
 		scroll {
 			layers = <SCROLL>;
-			input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>, <&zip_xy_scaler 1 7>, <&zip_xy_to_scroll_mapper>;
+			input-processors = <
+				&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)
+				&zip_xy_scaler 1 2
+				&zip_xy_to_scroll_mapper
+			>;
 		};
 	};
 };

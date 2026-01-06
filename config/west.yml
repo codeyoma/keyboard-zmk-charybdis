@@ -37,9 +37,9 @@ manifest:
       remote: englmaxi
       revision: v0.3
 
-    # - name: prospector-zmk-module
-    #   remote: not-in-stock
-    #   revision: main
+    - name: prospector-zmk-module
+      remote: not-in-stock
+      revision: main
 
   self:
     path: config

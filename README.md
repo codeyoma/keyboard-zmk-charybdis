@@ -1,5 +1,3 @@
 # ZMK Config for Charybdis 5-Column
 
-## Keymap
-
-![Keymap](keymap-drawer/charybdis.svg)
+![My Layout](./charybdis_keymap.svg)

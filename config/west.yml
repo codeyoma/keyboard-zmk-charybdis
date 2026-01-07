@@ -16,6 +16,9 @@ manifest:
       url-base: https://github.com/carrefinho
     - name: not-in-stock
       url-base: https://github.com/not-in-stock
+    
+    - name: mctechnology17
+      url-base: https://github.com/mctechnology17
 
   projects:
     - name: zmk

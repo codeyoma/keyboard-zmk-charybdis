@@ -13,10 +13,8 @@
         rows = <0>;
         events = <0>;
     };
-};
 
-&kscan {
-    status = "disabled";
+    /delete-node/ kscan;
 };
 
 &trackball_listener {

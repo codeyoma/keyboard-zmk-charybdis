@@ -8,6 +8,7 @@ features:
   - keys
   - pointer
 siblings:
-  - charybdis_dongle
   - charybdis_left
   - charybdis_right
+  - charybdis_dongle
+  - charybdis_central_right

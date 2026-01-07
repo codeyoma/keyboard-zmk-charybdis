@@ -5,6 +5,11 @@ include:
   #   cmake-args: -DCONFIG_ZMK_STUDIO=y
 
   - board: nice_nano_v2
+    shield: charybdis_dongle nice_view_adapter dongle_display
+    artifact-name: charybdis_dongle_nice_view
+
+
+  - board: nice_nano_v2
     shield: charybdis_left
 
   # - board: nice_nano_v2
@@ -15,6 +20,6 @@ include:
   - board: nice_nano_v2
     shield: charybdis_right_central
 
-  - board: nice_nano_v2
-    shield: settings_reset
+  # - board: nice_nano_v2
+  #   shield: settings_reset
 

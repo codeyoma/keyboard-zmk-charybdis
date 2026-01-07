@@ -7,7 +7,7 @@
     compatible = "zmk,keymap";
 
 	mouse_layer {
-		label = "MOUSE";
+		label = "Mouse";
 		bindings = <
 //	╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮   ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
 	XXXXXXXX		XXXXXXXX    	XXXXXXXX		XXXXXXXX		XXXXXXXX			XXXXXXXX        XXXXXXXX     	XXXXXXXX        XXXXXXXX        XXXXXXXX

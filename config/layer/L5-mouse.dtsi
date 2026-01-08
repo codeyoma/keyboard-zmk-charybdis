@@ -12,11 +12,11 @@
 //	╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮   ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
 	XXXXXXXX		XXXXXXXX    	XXXXXXXX		XXXXXXXX		XXXXXXXX			XXXXXXXX        XXXXXXXX     	XXXXXXXX        XXXXXXXX        XXXXXXXX
 //	├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┤
-	XXXXXXXX		&mo SCROLL    	XXXXXXXX		&mo SNIPE		XXXXXXXX			XXXXXXXX        XXXXXXXX     	XXXXXXXX        XXXXXXXX        XXXXXXXX
+	&kp LCTRL		&kp LGUI    	&kp LALT		&kp LSHFT		XXXXXXXX			&mkp MB4        &mkp LCLK     	&mkp RCLK        &mkp MCLK      &mkp MB5
 //	├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┤
-	XXXXXXXX		XXXXXXXX    	XXXXXXXX		XXXXXXXX		XXXXXXXX            &mkp MB4        &mkp LCLK     	&mkp RCLK        &mkp MCLK      &mkp MB5 
+	&mo SNIPE		&mo SCROLL    	XXXXXXXX		XXXXXXXX		XXXXXXXX            XXXXXXXX        XXXXXXXX     	XXXXXXXX        XXXXXXXX        XXXXXXXX 
 //	╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┴───────────────╯
-	       							________		________        ________           	________		________
+	       							________		________        ________           	&mo RAISE		________
 //                                                  ╰───────────────┴───────────────╯   ╰───────────────┴───────────────╯
 			>;
 		};

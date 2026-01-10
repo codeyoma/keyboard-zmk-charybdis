@@ -84,7 +84,7 @@ layers:
   Mouse:
   - ['', '', '', '', '', '', '', '', '', '']
   - [LCTRL, LGUI, LALT, LSHFT, '', '&mkp MB4', '&mkp LCLK', '&mkp RCLK', '&mkp MCLK', '&mkp MB5']
-  - [Snipe, Scroll, '', '', '', '', '', '', '', '']
+  - [Snipe, '', '', Scroll, '', '', '', '', '', '']
   - - {type: held}
     - ''
     - {t: ▽, type: trans}
@@ -94,9 +94,9 @@ layers:
   - ['', '', '', '', '', '', '', '', '', '']
   - ['', '', '', '', '', '', '', '', '', '']
   - - ''
+    - ''
+    - ''
     - {type: held}
-    - ''
-    - ''
     - ''
     - ''
     - ''

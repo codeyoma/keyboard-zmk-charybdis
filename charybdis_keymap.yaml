@@ -196,6 +196,15 @@ combos:
 - p: [21, 22]
   k: Ctl+TAB
   l: [yoma, ARST]
+- p: [26, 27, 28]
+  k: '&mkp LCLK'
+  l: [yoma, ARST]
+- p: [27, 28, 29]
+  k: '&mkp RCLK'
+  l: [yoma, ARST]
+- p: [26, 27, 28, 29]
+  k: Scroll
+  l: [yoma, ARST]
 - p: [0, 10]
   k: '!'
   l: [yoma, ARST, Lower]

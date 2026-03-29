@@ -25,6 +25,7 @@
 				╰────────────╯  ╰────────╯
 		*/
 
+		COMBO_(tab_,		&kp TAB,			30	31,	DEFAULT COLEMAK RAISE,			CB_MINIMUM_SPEED)
 		COMBO_(escape_,		&kp ESC,			31	32,	DEFAULT COLEMAK RAISE,			CB_MINIMUM_SPEED)
 		COMBO_(enter,		&kp ENTER,			33	34,	DEFAULT COLEMAK LOWER,			CB_MINIMUM_SPEED)
 

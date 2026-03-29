@@ -13,11 +13,7 @@ layers:
     - {t: L, h: LGUI}
     - {t: ;, h: LCTRL}
   - [Z, X, C, V, B, N, M, ',', ., /]
-  - - Mouse
-    - {t: TAB, h: LSHFT}
-    - Lower
-    - Raise
-    - SPACE
+  - [Mouse, LSHFT, Lower, Raise, SPACE]
   ARST:
   - [Q, W, F, P, G, J, L, U, Y, ;]
   - - {t: A, h: LCTRL}
@@ -31,11 +27,7 @@ layers:
     - {t: I, h: LGUI}
     - {t: O, h: LCTRL}
   - [Z, X, C, V, B, K, M, ',', ., /]
-  - - Mouse
-    - {t: TAB, h: LSHFT}
-    - Lower
-    - Raise
-    - SPACE
+  - [Mouse, LSHFT, Lower, Raise, SPACE]
   Lower:
   - [CAPS, HOME, PG UP, PG DN, END, '', '7', '8', '9', BSPC]
   - ['[', ']', '{', '}', 'Gui+[', 'Gui+]', '4', '5', '6', '&td_sqt']
@@ -163,6 +155,9 @@ layers:
     - {t: ▽, type: trans}
     - {type: held}
 combos:
+- p: [30, 31]
+  k: TAB
+  l: [yoma, ARST, Raise]
 - p: [31, 32]
   k: ESC
   l: [yoma, ARST, Raise]

@@ -1,0 +1,5 @@
+# keymap-drawer settings used by scripts/keymap.sh (parsing only; drawing uses the defaults).
+parse_config:
+  raw_binding_map:
+    # The KeyLay key: opens or closes the KeyLay cheat sheet
+    "&keylay": KeyLay
